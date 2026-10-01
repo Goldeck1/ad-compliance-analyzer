@@ -1,0 +1,23 @@
+================================================================================
+GIGACHAT FINE-TUNING LOG
+================================================================================
+
+Date: 2025-10-28 02:42:40
+Base Model: GigaChat/GigaChat-2-Max-without-filter
+Target Model: GigaChat-2-adlaw-v1
+Dataset: data/final_finetune_dataset.jsonl
+Total training examples: 11162
+
+Parameters:
+  - Epochs: 3
+  - Learning rate: 2e-05
+  - Batch size: 2
+
+Status: Dataset prepared, awaiting manual fine-tuning initiation
+
+Next steps:
+1. Upload data/final_finetune_dataset.jsonl to SberCloud
+2. Configure fine-tuning parameters
+3. Start fine-tuning job
+4. Monitor training progress
+5. Update API_KEY with fine-tuned model ID

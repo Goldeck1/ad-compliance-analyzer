@@ -1,0 +1,33 @@
+# === Основные зависимости ===
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.26.0  # Для обучения BERT
+
+# === ML и анализ данных ===
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# === Работа с файлами ===
+openpyxl>=3.1.0      # Excel
+python-docx>=0.8.11  # Word
+PyMuPDF>=1.23.0      # PDF парсинг (fitz)
+Pillow>=10.0.0       # Изображения
+pytesseract>=0.3.10  # OCR для изображений (опционально)
+
+# === API и окружение ===
+openai>=1.0.0        # GigaChat через OpenAI интерфейс
+python-dotenv>=1.0.0
+
+# === Jupyter Notebook ===
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# === Утилиты ===
+tqdm>=4.65.0         # Progress bars
+requests>=2.28.0     # HTTP запросы (fallback)
+
+# === FastAPI (API сервер) ===
+fastapi>=0.104.0     # API framework
+uvicorn[standard]>=0.24.0  # ASGI сервер
+pydantic>=2.0.0      # Валидация данных
